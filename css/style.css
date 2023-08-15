@@ -30,7 +30,7 @@ main .card {
 .card {
     width:330px;
     height:500px;
-    background-color: var(--Light-Grayish-Blue);
+    background-color: #fff;
     border-radius: 10px;
 }
 
@@ -44,7 +44,7 @@ main .card {
     padding: 20px;
 }
 
-.card-informacao h4 {
+.card-informacao h1 {
     color: var(--Vry-Dark-Grayish-Blue);
     font-size: 17px;
     margin-bottom: 10px;
@@ -74,7 +74,18 @@ main .card {
     opacity: 0%;
 }
 
+.dark {
+  color: var(--Vry-Dark-Grayish-Blue);
+  font-weight:bold;
+}
 
+.data {
+    color: var(--Desaturated-Dark-Blue);
+}
+
+p{
+     color: var(--Desaturated-Dark-Blue);
+}
 
 .profile-row .block {
     display: flex;
@@ -84,7 +95,7 @@ main .card {
 .share button {
     position: relative;
     left: -10px;
-    background-color: var(--Grayish-Blue);
+    background-color: #e9eef4;
 }
 
 button {
@@ -170,8 +181,12 @@ ul button {
     height: 30px;
 }
 
-a img:hover {
-  color: red;
+i {
+    font-size: 25px;
+}
+
+a i:hover {
+  color: var(--Grayish-Blue);
 }
 
 .new-br {
@@ -193,8 +208,7 @@ a img:hover {
         display: flex;
     }
 
-    .card-informacao h4 {
-        
+    .card-informacao h1 {
         font-size: 21px;
         margin-bottom: 15px;
     }
